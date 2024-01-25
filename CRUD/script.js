@@ -11,6 +11,19 @@ let addBtn = document.getElementById("add-button")
 let cancelBtn = document.getElementById("cancel-button")
 let model =  document.getElementById("add-feedback-model")
 
+console.log(feedbackHeader);
+console.log(totalFeedbacks);
+console.log(addFeedbackBtn);
+console.log(feedbackList);
+console.log(editBtn);
+console.log(deleteBtn);
+console.log(nameInput);
+console.log(titleInput);
+console.log(textareaInput);
+console.log(addBtn);
+console.log(cancelBtn);
+console.log(model);
+
 totalFeedbacks.innerHTML = localStorage.length;
 
 let feedback = {
@@ -114,7 +127,7 @@ function editFeedback(id){
         feedback.text =  textareaInput.value;
         localStorage.setItem(id, JSON.stringify(feedback));
 
-        // fazendo o model sumir
+        // making the model disappear
         model.style.display = "none";
         feedbackHeader.style.display = "flex";
         feedbackList.style.display = "block";
