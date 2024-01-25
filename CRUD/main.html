@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Xuxu Feedbacks</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="feedback_header" id="feedback-header">
+            <div class="left_header">
+                <h3><span id="feedbacks">Xuxu</span> Feedbacks!</h3>
+            </div>
+
+            <div class="right_header">
+                <button class="feedback_btn" id="add-feedback-button">
+                    Dar Feedback
+                </button>
+            </div>
+        </div>
+
+        <div class="feedback_list" id="feedback-list">
+            <div class="feedback_items" id="feedback_items">
+                <div class="feedback_details">
+                    <h4 class="feedback_name" id="feedback-name">
+                        Xuxu Cabral:
+                    </h4>
+                    <h5 class="feedback_title" id="feedback-title">
+                        Ótima Comida, trabalho impecável!
+                    </h5>
+                    <p class="feedback_txt" id="feedback-text">
+                        Achei a Feijoada deliciosa, leve e suculenta!
+                    </p>
+                </div>
+            </div>
+
+            <div class="feedback_btns">
+                <button class="feedback_btn" id="edit-button">
+                    Editar
+                </button>
+
+                <button class="feedback_btn" id="delete-button">
+                    Deletar
+                </button>
+            </div>
+        </div>
+
+        <!-- Add um modelo para ter feedback -->
+
+        <div class="model" id="add-feedback-model">
+            <div class="model_content">
+                <div class="model_header-left">
+                    <h1>Inserir Feedback</h1>
+                </div>
+
+                <div class="model_body">
+                    <form id="add-feedback-form" class="form">
+                        <div class="form_group">
+                            <label for="name">
+                                Seu nome: 
+                            </label>
+                            <input type="text" name="name" id="name" class="form_input">
+                        </div>
+                        <div class="form_group">
+                            <label for="title">
+                                Titulo do Feedback:  
+                            </label>
+                            <input type="text" name="title" id="title" class="form_input">
+                        </div>
+                        <div class="form_group">
+                            <label for="name">
+                                Anotações: 
+                            </label>
+                            <textarea name="text" id="text" cols="30" rows="10" class="form_input"></textarea>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="model_footer">
+                    <button class="model_btn feedback_btn" id="add-btn">
+                        Enviar Feedback
+                    </button>
+                    <button class="model_btn feedback_btn model_btn_cancel" id="add-btn">
+                        Cancelar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
