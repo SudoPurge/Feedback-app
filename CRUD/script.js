@@ -11,7 +11,7 @@ let addBtn = document.getElementById("add-button")
 let cancelBtn = document.getElementById("cancel-button")
 let model =  document.getElementById("add-feedback-model")
 
-console.log(feedbackHeader);
+/*console.log(feedbackHeader);
 console.log(totalFeedbacks);
 console.log(addFeedbackBtn);
 console.log(feedbackList);
@@ -22,7 +22,7 @@ console.log(titleInput);
 console.log(textareaInput);
 console.log(addBtn);
 console.log(cancelBtn);
-console.log(model);
+console.log(model);*/
 
 totalFeedbacks.innerHTML = localStorage.length;
 
