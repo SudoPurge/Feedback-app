@@ -11,7 +11,7 @@ let addBtn = document.getElementById("add-button")
 let cancelBtn = document.getElementById("cancel-button")
 let model =  document.getElementById("add-feedback-model")
 
-/*console.log(feedbackHeader);
+console.log(feedbackHeader);
 console.log(totalFeedbacks);
 console.log(addFeedbackBtn);
 console.log(feedbackList);
@@ -22,7 +22,7 @@ console.log(titleInput);
 console.log(textareaInput);
 console.log(addBtn);
 console.log(cancelBtn);
-console.log(model);*/
+console.log(model);
 
 totalFeedbacks.innerHTML = localStorage.length;
 
@@ -76,24 +76,24 @@ function showFeedback(){
         let feedback = JSON.parse(localStorage.getItem(feedbacks.key(i)));
 
         feedbackList.innerHTML += `
-        <div class="feedback__item item-animation">
-        <div class="feedback__details">
-            <h4 class="feedback__name" id="feedback-name">
+        <div class="feedback_item item-animation" style="padding-top: 40px;">
+        <div class="feedback_details">
+            <h4 class="feedback_name" id="feedback-name">
                 ${feedback.name}
             </h4>
-            <h5 class="feedback__title" id="feedback-title">
+            <h5 class="feedback_title" id="feedback-title">
                 ${feedback.title}
             </h5>
-            <p class="feedback__text" id="feedback-text">
+            <p class="feedback_text" id="feedback-text">
                 ${feedback.text}
             </p>
         </div>
 
-        <div class="feedback__buttons">
-            <button class="feedback__button" id="edit-button" onclick="editFeedback(${feedback.id})">
+        <div class="feedback_buttons">
+            <button class="feedback_btn" id="edit-button" onclick="editFeedback(${feedback.id})">
                 Edit
             </button>
-            <button class="feedback__button" id="delete-button" onclick="deleteFeedback(${feedback.id})">
+            <button class="feedback_btn" id="delete-button" onclick="deleteFeedback(${feedback.id})">
                 Delete
             </button>
         </div>
