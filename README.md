@@ -20,27 +20,26 @@ Certifique-se de ter os seguintes requisitos antes de executar o projeto:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/SudoPurge/Feedback-app.git
    ```
 
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd nome-do-repositorio
+   cd Feedback-app
    ```
 
 3. Abra o arquivo `index.html` em seu navegador preferido:
 
    ```bash
-   open index.html
+   open main.html
    ```
 
-   Ou simplesmente abra o arquivo `index.html` no seu navegador.
+   Ou simplesmente abra o arquivo `main.html` no seu navegador.
 
 4. Interaja com o módulo de feedback:
 
    - Clique em "Adicionar Feedback" para criar um novo feedback.
-   - Clique em "Ver Feedbacks" para visualizar todos os feedbacks existentes.
    - Para atualizar ou excluir um feedback, clique nos botões correspondentes ao lado do feedback desejado.
 
 ## Tecnologias Utilizadas
@@ -55,7 +54,7 @@ Este projeto utiliza o `localStorage` do navegador para armazenar os dados local
 
 ## Contribuições
 
-Contribuições são bem-vindas! Se você encontrar bugs ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma [issue](https://github.com/seu-usuario/nome-do-repositorio/issues) ou enviar um pull request.
+Contribuições são bem-vindas! Se você encontrar bugs ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma [issue](https://github.com/SudoPurge/Feedback-app/tree/main) ou enviar um pull request.
 
 ## Licença
 
